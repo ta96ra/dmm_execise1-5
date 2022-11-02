@@ -1,0 +1,92 @@
+/*共通*/
+body{
+  margin: 0;
+  font-size: 100%;
+}
+li{
+  list-style: none;  
+}
+
+/*ヘッダー*/
+header{
+  
+}
+.title{
+  display: block;
+  margin: 20px;
+  text-align: center;
+}
+nav{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin: 15px 20px;
+}
+/*メイン*/
+main{
+  
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: 50px auto;
+}
+.box{
+width: 200px;
+height: 200px;
+}
+.box1{
+  background: #e6ffe9;
+}
+.box2{
+  background: #cbffd3;
+}
+.box3{
+  background: #aeffbd;
+}
+.box4{
+  background: #93ffab;
+}
+.box5{
+  background: #f3ffd8;
+}
+.box6{
+  background: #edffbe;
+}
+.box7{
+  background: #e9ffa5;
+}
+.box8{
+  background: #e4ff8d;
+}
+.box9{
+  background: #d9e5ff;
+}
+.box10{
+  background: #bad3ff;
+}
+.box11{
+  background: #a4c6ff;
+}
+.box12{
+  background: #8eb8ff;
+}  
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background: gray;
+}
+small{
+  color: white;
+  font-size: .75rem; 
+}
